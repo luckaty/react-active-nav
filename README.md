@@ -62,6 +62,10 @@ react-active-nav/
 
 This project was created on Day 11 of my React learning journey to build clean, accessible, and responsive navigation — just like you'd see in real-world UK tech projects (BBC, Monzo, GOV.UK).
 
+🌍 Live Site
+
+🔗 https://react-active-nav.vercel.app
+
 📜 License
 
 MIT — feel free to use or adapt it.
