@@ -16,11 +16,11 @@ A simple React project demonstrating **active link highlighting** using React Ro
 git clone https://github.com/YOUR_USERNAME/react-active-nav.git
 cd react-active-nav
 
-2. Install dependencies
+### 2. Install dependencies
 
 npm install
 
-3. Start the development server
+### 3. Start the development server
 
 npm run dev
 
@@ -62,9 +62,32 @@ react-active-nav/
 
 This project was created on Day 11 of my React learning journey to build clean, accessible, and responsive navigation — just like you'd see in real-world UK tech projects (BBC, Monzo, GOV.UK).
 
-🌍 Live Site
+### 🌍 Live Site
 
 🔗 https://react-active-nav.vercel.app
+
+## ♿️ Accessibility
+
+This project includes accessibility improvements such as:
+- `:focus-visible` styles for keyboard users
+- Semantic HTML elements (`<main>`, `<footer>`, `<nav>`)
+- Proper use of `aria-current` for navigation
+
+Following WCAG 2.1 AA guidelines improves usability and aligns with UK digital service standards.
+
+
+
+## 🧪 Testing
+
+Unit tests are written using:
+
+- [Vitest](https://vitest.dev/)
+- [React Testing Library](https://testing-library.com/)
+
+To run tests locally:
+
+npm run test
+
 
 📜 License
 
